@@ -1,0 +1,104 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+}
+
+header {
+   background-color: khaki;
+   padding: 34px 20px;
+}
+
+main {
+   display: flex;
+   flex: 1;
+}
+
+article {
+   background-color: white;
+   flex: 3;
+   padding: 20px;
+}
+
+aside {
+   background-color: #ffc0cb;
+   flex: 1;
+   padding: 20px;
+}
+
+nav {
+    background-color: #00dcc8;
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+   background-color: khaki;
+   padding: 34px 20px;
+}
+
+/* Gambar 8 (a) */
+.l2 {
+  display: flex;
+  width: 90%;
+  max-width: 600px;
+  min-height: 260px;
+  margin: 20px auto;
+}
+.l2 nav { background: pink; width: 22%; flex: none; padding: 12px; }
+.l2 .kolom { flex: 1; display: flex; flex-direction: column; }
+.l2 header, .l2 footer { background: #f0d84a; padding: 12px; }
+.l2 .tengah { flex: 1; display: flex; }
+.l2 article { background: #fff; flex: 1; padding: 12px; }
+.l2 aside { background: cyan; width: 25%; flex: none; padding: 12px; }
+
+/* Gambar 8 (b) */
+.l3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #f7a8ad;
+}
+.l3 header, .l3 footer {
+  background: #7fcfc3;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+}
+.l3 .tengah { display: flex; gap: 10px; min-height: 200px; }
+.l3 aside {
+  width: 30%;
+  flex: none;
+  background: #3fb0ac;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.l3 article {
+  flex: 1;
+  background: #f26c6c;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.l3 .gambar { display: flex; gap: 8px; margin-top: auto; }
+.l3 .gambar div {
+  flex: 1;
+  height: 55px;
+  background: #c8c8c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

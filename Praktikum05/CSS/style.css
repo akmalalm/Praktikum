@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box; 
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; 
+}
+nav.menu { 
+  background: #333;
+  padding: 10px; 
+  text-align: center; }
+nav.menu a { 
+  color: #fff; 
+  margin: 0 10px; 
+  text-decoration: none;
+}
+h2.label { 
+  text-align: center; 
+}
